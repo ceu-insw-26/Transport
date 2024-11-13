@@ -5,6 +5,36 @@ public interface IEngine
     public bool moveVehicle(int distance);
     public void refuel();
 }
+
+public class JumpEngine: IEngine
+{
+    private static JumpEngine? UniqueEngine;
+
+    private JumpEngine()
+    {
+
+    }
+
+    public static JumpEngine getJumpEngine()
+    {
+        if (UniqueEngine == null)
+        {
+            UniqueEngine = new JumpEngine();
+        }
+        return UniqueEngine;
+    }
+    public bool moveVehicle(int distance)
+    {
+        Console.Write($"Teleporting vehicle {distance} kms");
+        Console.WriteLine();
+        return true;
+
+    }
+    public void refuel()
+    {
+        Console.Write("No need for fuel");
+    }
+}
 public class ElectricEngine: IEngine
 {
     int autonomy = 0;
@@ -150,13 +180,26 @@ public class ElectricTransport : Transport
 
 }
 
+public class MagicTransport : Transport
+{
+    public MagicTransport(string name) : base(name)
+    {
+    }
+    public override IEngine CreateEngine()
+    {
+        return JumpEngine.getJumpEngine();
+    }
+}
+
 public class Program
 {
     public static void Main(string[] args)
     {
         Transport t1 = new ElectricTransport("BMW i8");
         Transport t2 = new CombustionTransport("Mazda RX-8");
+        Transport t3 = new MagicTransport("Delorean");
         t1.Deliver();
         t2.Deliver();
+        t3.Deliver();
     }
 }
