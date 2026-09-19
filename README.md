@@ -20,3 +20,12 @@ Este es el código de los métodos moveVehicle y refuel del motor de salto.
         Console.Write("No need for fuel");
     }
 
+## Tests
+
+El proyecto incluye tests de aprobación que verifican la salida del programa. Ejecútalos con:
+
+```bash
+dotnet test
+```
+
+**No está permitido modificar los tests.** Su función es garantizar que el comportamiento observable del programa se mantiene tras tus cambios.
