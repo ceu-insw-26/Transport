@@ -50,3 +50,14 @@ Package delivered
 
 Total of 1600 km driven by Mazda RX-8
 
+Teleporting vehicle 300 kms
+Package delivered
+
+Teleporting vehicle 500 kms
+Package delivered
+
+Teleporting vehicle 800 kms
+Package delivered
+
+Total of 1600 km driven by Delorean
+
