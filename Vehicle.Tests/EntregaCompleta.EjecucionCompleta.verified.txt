@@ -1,0 +1,52 @@
+﻿Can not move an electric vehicle 300 kms. No battery left
+Recharging electricity
+Autonomy is 300 km
+Moving an electric vehicle 300 kms
+Package delivered
+
+Can not move an electric vehicle 500 kms. No battery left
+Recharging electricity
+Autonomy is 300 km
+Can not move an electric vehicle 500 kms. No battery left
+Recharging electricity
+Autonomy is 600 km
+Moving an electric vehicle 500 kms
+Package delivered
+
+Can not move an electric vehicle 800 kms. No battery left
+Recharging electricity
+Autonomy is 400 km
+Can not move an electric vehicle 800 kms. No battery left
+Recharging electricity
+Autonomy is 700 km
+Can not move an electric vehicle 800 kms. No battery left
+Recharging electricity
+Autonomy is 800 km
+Moving an electric vehicle 800 kms
+Package delivered
+
+Total of 1600 km driven by BMW i8
+
+Can not move a combustion vehicle 300 kms. No gasoline left
+Recharging gasoline
+Autonomy is 500 km
+Moving a combustion vehicle 300 kms
+Package delivered
+
+Can not move a combustion vehicle 500 kms. No gasoline left
+Recharging gasoline
+Autonomy is 700 km
+Moving a combustion vehicle 500 kms
+Package delivered
+
+Can not move a combustion vehicle 800 kms. No gasoline left
+Recharging gasoline
+Autonomy is 700 km
+Can not move a combustion vehicle 800 kms. No gasoline left
+Recharging gasoline
+Autonomy is 1000 km
+Moving a combustion vehicle 800 kms
+Package delivered
+
+Total of 1600 km driven by Mazda RX-8
+
